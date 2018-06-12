@@ -1,0 +1,168 @@
+$wait: 2;
+
+.square-move {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+
+  .move {
+    position: absolute;
+    @include box;
+    display: block;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    border-radius: 3px;
+  }
+  @for $i from 1 through 3 {
+    @if $i<2 or $i = 2 {
+      .move:nth-child(#{$i}) {
+        left: 25px * ($i - 1);
+        top: 0;
+      }
+    }
+
+    @if $i>2 {
+      .move:nth-child(#{$i}) {
+        left: 25px * ($i - 3);
+        top: 25px;
+      }
+    }
+
+    @if $i==1 {
+      .move:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-move #{$wait}s infinite linear;
+        @keyframes  #{nth($splitLength, $i)}-move {
+          0% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+          15% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+          25% {
+            left: 25px * ($i - 1)+ 25px;
+            top: 0;
+          }
+
+          40% {
+            left: 25px * ($i - 1)+ 25px;
+            top: 0;
+          }
+          50% {
+            left: 25px * ($i - 1)+ 25px;
+            top: 25px;
+          }
+          65% {
+            left: 25px * ($i - 1)+ 25px;
+            top: 25px;
+          }
+          75% {
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+          90% {
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+          100% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+
+        }
+      }
+    }
+
+    @if $i==2 {
+      .move:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-move #{$wait}s infinite linear;
+        @keyframes  #{nth($splitLength, $i)}-move {
+          0% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+          15% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+          25% {
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+          40% {
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+          50% {
+            left: 25px * ($i - 1)-25px;
+            top: 25px;
+          }
+          65% {
+            left: 25px * ($i - 1)-25px;
+            top: 25px;
+          }
+          75% {
+            left: 25px * ($i - 1)-25px;
+            top: 0;
+          }
+          90% {
+            left: 25px * ($i - 1)-25px;
+            top: 0;
+          }
+          100% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+
+        }
+      }
+    }
+
+    @if $i==3 {
+      .move:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-move #{$wait}s infinite linear;
+        @keyframes  #{nth($splitLength, $i)}-move {
+          0% {
+            left: 25px * ($i - 3);
+            top: 25px;
+          }
+          15% {
+            left: 25px * ($i - 3);
+            top: 25px;
+          }
+          25% {
+            left: 25px * ($i - 3);
+            top: 0;
+          }
+          40% {
+            left: 25px * ($i - 3);
+            top: 0;
+          }
+          50% {
+            left: 25px * ($i - 3) + 25px;
+            top: 0;
+          }
+          65% {
+            left: 25px * ($i - 3) + 25px;
+            top: 0;
+          }
+          75% {
+            left: 25px * ($i - 3) + 25px;
+            top: 25px;
+          }
+          90% {
+            left: 25px * ($i - 3) + 25px;
+            top: 25px;
+          }
+          100% {
+            left: 25px * ($i - 3);
+            top: 25px;
+          }
+
+        }
+      }
+    }
+
+  }
+}

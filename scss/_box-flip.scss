@@ -1,0 +1,35 @@
+.square-flip{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .flip{
+    position: absolute;
+    display: block;
+    height: 3 * $boxHeight;
+    width: 3 * $boxWidth;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    animation:  rotateplane 1.5s infinite linear;
+  }
+  @keyframes rotateplane {
+    0%{
+      transform: rotateX(0);
+    }
+    25%{
+      transform: rotateX(90deg);
+    }
+    50%{
+      transform: rotateY(0deg);
+    }
+    75%{
+      transform: rotateY(90deg);
+    }
+    100%{
+      transform: rotate3d(0,0,0,0);
+    }
+  }
+}

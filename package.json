@@ -1,0 +1,24 @@
+{
+  "name": "box",
+  "version": "1.0.0",
+  "description": "Increase your imagination",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontageD/box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontageD/box/issues"
+  },
+  "homepage": "https://github.com/MontageD/box#readme",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

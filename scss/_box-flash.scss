@@ -1,0 +1,158 @@
+$flashTime: 3s;
+
+
+.square-flash {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .flash {
+    position: relative;
+    display: block;
+    height: 3 * $boxHeight;
+    width: 3 * $boxWidth;
+    background-color: transparent;
+    overflow: hidden;
+    //animation: rotateFlash 3s infinite linear;
+  }
+  .flash:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    content: ' ';
+    height: 0;
+    width: ( 3 * $boxWidth ) / 5;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    animation: rotateFlash $flashTime infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .flash-line{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+  }
+  @for $i from 1 through 5 {
+    @if $i == 1 {
+      .flash-line:nth-child(#{$i}) {
+        left: 0;
+        top: 50%;
+        transform: translate(0,-50%);
+        animation: #{nth($splitLength, $i)}-flash $flashTime infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-flash {
+        0%{
+          height: 0;
+        }
+        50%{
+          height: 100%;
+        }
+        70%{
+          height: 100%;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+    @if $i == 2 {
+      .flash-line:nth-child(#{$i}) {
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 58px;
+        animation: #{nth($splitLength, $i)}-flash $flashTime infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-flash {
+        0%{
+          width: 0;
+        }
+        50%{
+          width: 100%;
+        }
+        70%{
+          width: 100%;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+
+    }
+    @if $i == 3 {
+      .flash-line:nth-child(#{$i}) {
+        left: 58px;
+        top: 50%;
+        transform: translate(0,-50%);
+        animation: #{nth($splitLength, $i)}-flash $flashTime infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-flash {
+        0%{
+          height: 0;
+        }
+        50%{
+          height: 100%;
+        }
+        70%{
+          height: 100%;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+    @if $i == 4 {
+      .flash-line:nth-child(#{$i}) {
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 0px;
+        width: 0;
+        animation: #{nth($splitLength, $i)}-flash $flashTime infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-flash {
+        0%{
+          width: 0;
+        }
+        50%{
+          width: 60px;
+        }
+        70%{
+          width: 60px;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  @keyframes rotateFlash {
+    0%{
+      width: 0;
+      height: 0;
+    }
+    50%{
+      height:  3 * $boxHeight;
+      width:  3 * $boxWidth;
+    }
+    70%{
+      height:  3 * $boxHeight;
+      width:  3 * $boxWidth;
+      content: 'success';
+    }
+    100%{
+      content: 'success';
+      opacity: 0;
+      height:  3 * $boxHeight;
+      width:  3 * $boxWidth;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+$backColor:  rgba(random()*255, random()*255, random()*255, 1);
+$backColor2:  rgba(random()*255, random()*255, random()*255, 1);
+
+
+.square-rolling {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .rolling {
+    position: absolute;
+    display: block;
+    height: 3 * $boxHeight;
+    width: 3 * $boxWidth;
+    transform: rotateZ(0deg);
+    background-color: $backColor;
+    border-radius: 5%;
+    animation: rotateRolling 2s infinite linear;
+  }
+
+  @keyframes rotateRolling {
+    0% {
+
+    }
+    20%{
+      transform: rotateZ(40deg);
+      border-radius: 50%;
+      background-color: $backColor2;
+      height: 3 * $boxHeight;
+      width: 3 * $boxWidth;
+    }
+    30%{
+      transform: rotateZ(80deg);
+      border-radius: 50%;
+      height: 2 * $boxHeight;
+      width: 2 * $boxWidth;
+      background-color: $backColor2;
+    }
+    40%{
+      transform: rotateZ(100deg);
+      border-radius: 50%;
+      height: 1.8 * $boxHeight;
+      width: 1.8 * $boxWidth;
+      background-color:$backColor2;
+    }
+    50%{
+      transform: rotateZ(100deg);
+      border-radius: 50%;
+      height: 1.5 * $boxHeight;
+      width: 1.5 * $boxWidth;
+      background-color:$backColor2;
+    }
+    60% {
+      transform: rotateZ(50deg);
+      border-radius: 30%;
+      height: 2 * $boxHeight;
+      width: 2 * $boxWidth;
+      background-color: $backColor2;
+    }
+    70% {
+      transform: rotateZ(30deg);
+      border-radius: 10%;
+      height: 3 * $boxHeight;
+      width: 3 * $boxWidth;
+      background-color: $backColor2;
+    }
+    80%{
+      transform: rotateZ(0deg);
+      border-radius:5%;
+    }
+    100%{
+      transform: rotateZ(0deg);
+      border-radius:5%;
+    }
+  }
+
+}

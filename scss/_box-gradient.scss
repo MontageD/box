@@ -1,0 +1,179 @@
+$wait: 1.5;
+
+
+
+.square-gradient {
+  position: relative;
+  width: 60px;
+  height: 75px;
+  .gradient {
+    position: absolute;
+    @include box;
+    display: block;
+    background-color: #41adef;
+    //animation: rotating 2s infinite linear;
+  }
+  @for $i from 1 through 10 {
+    @if $i<4 and $i>0 {
+      .gradient:nth-child(#{$i}) {
+        left: 20px * ($i - 1);
+        top: 0;
+      }
+
+    } @else if $i>3 and $i<7 {
+      .gradient:nth-child(#{$i}) {
+        left: 20px * ($i - 4 );
+        top: 20px;
+      }
+    } @else {
+      .gradient:nth-child(#{$i}) {
+        left: 20px * ($i - 7);
+        top: 40px;
+      }
+    }
+
+    @if $i==1 {
+      .gradient:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-gradient #{$wait}s infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-gradient {
+        0% {
+          transform: scale(1);
+        }
+        20% {
+          transform: scale(.6);
+        }
+        40% {
+          transform: scale(.4);
+        }
+        60% {
+          transform: scale(.2);
+        }
+        80% {
+          transform: scale(.6);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+
+    @if $i%2==0 and $i<5 {
+      .gradient:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-gradient #{$wait}s infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-gradient {
+        0% {
+          transform: scale(1);
+        }
+        20%{
+          transform: scale(1);
+        }
+        40%{
+          transform: scale(.6);
+        }
+        60% {
+          transform: scale(.2);
+        }
+        80% {
+          transform: scale(.8);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+    @if ($i - 1)%2==0 and $i<9  and $i>1{
+      .gradient:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-gradient #{$wait}s infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-gradient {
+        0% {
+          transform: scale(1);
+        }
+        20%{
+          transform: scale(1);
+        }
+        40%{
+          transform: scale(1);
+        }
+        60% {
+          transform: scale(.6);
+        }
+        80% {
+          transform: scale(.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+
+    @if ($i)%2==0 and $i>5 {
+      .gradient:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-gradient #{$wait}s infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-gradient {
+        0% {
+          transform: scale(1);
+        }
+        20%{
+          transform: scale(1);
+        }
+        40%{
+          transform: scale(1);
+        }
+        60% {
+          transform: scale(1);
+        }
+        80% {
+          transform: scale(.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+
+    @if ($i)==9 {
+      .gradient:nth-child(#{$i}) {
+        animation: #{nth($splitLength, $i)}-gradient #{$wait}s infinite linear;
+      }
+      @keyframes  #{nth($splitLength, $i)}-gradient {
+        0% {
+          transform: scale(1);
+        }
+        20%{
+          transform: scale(1);
+        }
+        40%{
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1);
+        }
+        60%{
+          transform: scale(1);
+        }
+        70%{
+          transform: scale(1);
+        }
+        80% {
+          transform: scale(1);
+        }
+        90% {
+          transform: scale(.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+
+
+
+
+
+  }
+
+}

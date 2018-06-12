@@ -1,0 +1,45 @@
+.square-rotating {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  //animation: doBox 1s infinite linear;
+  .rotate {
+    position: absolute;
+    @include box;
+    display: block;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    animation: rotating 2s infinite linear;
+  }
+  @for $i from 1 through 10 {
+    @if $i<4 and $i>0 {
+      .rotate:nth-child(#{$i}) {
+        left: 25px * ($i - 1);
+        top: 0;
+      }
+
+    } @else if $i>3 and $i<7 {
+      .rotate:nth-child(#{$i}) {
+        left: 25px * ($i - 4 );
+        top: 25px;
+      }
+    } @else {
+      .rotate:nth-child(#{$i}) {
+        left: 25px * ($i - 7);
+        top: 50px;
+      }
+    }
+  }
+
+
+  @keyframes rotating   {
+    0% {
+      transform:rotate(0);
+    }
+    50% {
+      transform:rotate(180deg);
+    }
+    100% {
+      transform:rotate(360deg);
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.square-split {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  .split {
+    position: absolute;
+    @include box;
+    display: block;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+  }
+
+  $splitLength: a, b, c, d, e, f, g, h, i,j;
+  $split: split-;
+  @for $i from 1 through 10 {
+    @if $i<4 and $i>0 {
+      .split:nth-child(#{$i}) {
+        left: 25px * ($i - 1);
+        top: 0;
+        animation: #{nth($splitLength, $i)}-split 2s infinite linear;
+        @keyframes #{nth($splitLength, $i)}-split   {
+          0% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+          50% {
+            left: 25px;
+            top: 25px;
+          }
+          100% {
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+        }
+      }
+
+    } @else if $i>3 and $i<7 {
+      .split:nth-child(#{$i}) {
+        left: 25px * ($i - 4 );
+        top: 25px;
+        animation: #{nth($splitLength, $i)}-split 2s infinite linear;
+        @keyframes #{nth($splitLength, $i)}-split {
+          0% {
+            left: 25px * ($i - 4 );
+            top: 25px;
+          }
+          50% {
+            left: 25px;
+            top: 25px;
+          }
+          100% {
+            left: 25px * ($i - 4 );
+            top: 25px;
+          }
+        }
+      }
+    } @else {
+      .split:nth-child(#{$i}) {
+        left: 25px * ($i - 7);
+        top: 50px;
+        animation: #{nth($splitLength, $i)}-split 2s infinite linear;
+        @keyframes #{nth($splitLength, $i)}-split {
+          0% {
+            left: 25px * ($i - 7);
+            top: 50px;
+          }
+          50% {
+            left: 25px;
+            top: 25px;
+          }
+          100% {
+            left: 25px * ($i - 7);
+            top: 50px;
+          }
+        }
+      }
+    }
+    //
+    //@if $i==5 {
+    //
+    //} @else {
+    //
+    //}
+
+  }
+
+
+
+}
+
