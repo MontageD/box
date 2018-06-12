@@ -5,4 +5,4 @@ bower_components/
 .vscode
 build/
 examples/
-
+package-lock.json
