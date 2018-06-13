@@ -844,7 +844,7 @@
   20% {
     transform: rotateZ(40deg);
     border-radius: 50%;
-    background-color: #63a6c7;
+    background-color: #f13b09;
     height: 60px;
     width: 60px; }
   30% {
@@ -852,31 +852,31 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: #63a6c7; }
+    background-color: #f13b09; }
   40% {
     transform: rotateZ(100deg);
     border-radius: 50%;
     height: 36px;
     width: 36px;
-    background-color: #63a6c7; }
+    background-color: #f13b09; }
   50% {
     transform: rotateZ(100deg);
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    background-color: #63a6c7; }
+    background-color: #f13b09; }
   60% {
     transform: rotateZ(50deg);
     border-radius: 30%;
     height: 40px;
     width: 40px;
-    background-color: #63a6c7; }
+    background-color: #f13b09; }
   70% {
     transform: rotateZ(30deg);
     border-radius: 10%;
     height: 60px;
     width: 60px;
-    background-color: #63a6c7; }
+    background-color: #f13b09; }
   80% {
     transform: rotateZ(0deg);
     border-radius: 5%; }
@@ -1151,60 +1151,60 @@
     border-radius: 0;
     background-color: #41adef;
     display: block;
-    background-color: #439cb5;
+    background-color: #4c49e5;
     border-radius: 50%;
     animation: imprisoned 3s infinite linear;
     box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0, 32, 128, 0.1), 0 0 0 1px #f0f2f7; }
 
 @keyframes imprisoned {
   6% {
-    left: 34.15898px;
-    top: 19.30286px; }
+    left: 49.20033px;
+    top: 26.88564px; }
   12% {
-    left: 34.97881px;
-    top: 33.20807px; }
+    left: 10.9609px;
+    top: 31.97571px; }
   18% {
-    left: 43.46925px;
-    top: 6.85466px; }
+    left: 22.0117px;
+    top: 47.77735px; }
   24% {
-    left: 13.73634px;
-    top: 12.48151px; }
+    left: 1.52899px;
+    top: 13.81662px; }
   30% {
-    left: 42.80621px;
-    top: 6.95802px; }
+    left: 11.55041px;
+    top: 26.4275px; }
   36% {
-    left: 57.93205px;
-    top: 29.20561px; }
+    left: 0.88936px;
+    top: 50.41007px; }
   42% {
-    left: 0.72713px;
-    top: 23.74813px; }
+    left: 29.99936px;
+    top: 4.57054px; }
   48% {
-    left: 23.44113px;
-    top: 56.9116px; }
+    left: 27.08351px;
+    top: 15.37294px; }
   54% {
-    left: 43.05833px;
-    top: 1.86659px; }
+    left: 18.71183px;
+    top: 51.21781px; }
   60% {
-    left: 43.54233px;
-    top: 45.92137px; }
+    left: 0.13817px;
+    top: 18.18776px; }
   66% {
-    left: 42.742px;
-    top: 20.85711px; }
+    left: 11.08336px;
+    top: 9.76079px; }
   72% {
-    left: 36.40817px;
-    top: 37.88096px; }
+    left: 23.74981px;
+    top: 6.12711px; }
   78% {
-    left: 50.20593px;
-    top: 21.47341px; }
+    left: 59.21404px;
+    top: 49.92352px; }
   84% {
-    left: 2.68937px;
-    top: 20.22287px; }
+    left: 21.93126px;
+    top: 54.22602px; }
   90% {
-    left: 13.61619px;
-    top: 28.59142px; }
+    left: 35.99032px;
+    top: 10.3615px; }
   96% {
-    left: 31.79507px;
-    top: 14.88775px; }
+    left: 15.42127px;
+    top: 55.19885px; }
   100% {
     left: 0;
     top: 0; } }

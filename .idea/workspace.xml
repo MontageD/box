@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707a8fd9-01fc-4aae-8ed6-0bb9e2e92d9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_box-corrugated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_box-imprisoned.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_box-waves.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="$PROJECT_DIR$/docs/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-corrugated.scss" afterPath="$PROJECT_DIR$/scss/_box-corrugated.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-face.scss" afterPath="$PROJECT_DIR$/scss/_box-face.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-flash.scss" afterPath="$PROJECT_DIR$/scss/_box-flash.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-flip.scss" afterPath="$PROJECT_DIR$/scss/_box-flip.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-gradient.scss" afterPath="$PROJECT_DIR$/scss/_box-gradient.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-move.scss" afterPath="$PROJECT_DIR$/scss/_box-move.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-rolling.scss" afterPath="$PROJECT_DIR$/scss/_box-rolling.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-rotating.scss" afterPath="$PROJECT_DIR$/scss/_box-rotating.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-split.scss" afterPath="$PROJECT_DIR$/scss/_box-split.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-wind.scss" afterPath="$PROJECT_DIR$/scss/_box-wind.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_variables.scss" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-imprisoned.scss" afterPath="$PROJECT_DIR$/scss/_box-imprisoned.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="218" column="44" lean-forward="false" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -47,8 +35,18 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file leaf-file-name="_box-face.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_box-face.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="660">
+              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,8 +85,18 @@
       <file leaf-file-name="_box-corrugated.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_box-corrugated.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,28 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/img/load.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_box-imprisoned.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_box-imprisoned.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_box-gradient.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_box-gradient.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="509">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,23 +151,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/css/resets.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scss/_mixins.scss" />
         <option value="$PROJECT_DIR$/scss/_box-split.scss" />
         <option value="$PROJECT_DIR$/scss/_box-rotating.scss" />
         <option value="$PROJECT_DIR$/scss/_box-flash.scss" />
         <option value="$PROJECT_DIR$/scss/_box-flip.scss" />
-        <option value="$PROJECT_DIR$/scss/_box-imprisoned.scss" />
         <option value="$PROJECT_DIR$/scss/_box-move.scss" />
         <option value="$PROJECT_DIR$/scss/_box-wind.scss" />
-        <option value="$PROJECT_DIR$/scss/_box-face.scss" />
         <option value="$PROJECT_DIR$/scss/_box-gradient.scss" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/_box-rolling.scss" />
-        <option value="$PROJECT_DIR$/scss/_box-corrugated.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/_box-waves.scss" />
         <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scss/_box-face.scss" />
+        <option value="$PROJECT_DIR$/scss/_box-imprisoned.scss" />
+        <option value="$PROJECT_DIR$/scss/_box-corrugated.scss" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -312,12 +303,12 @@
       <updated>1528706087065</updated>
       <workItem from="1528706089866" duration="787000" />
       <workItem from="1528726434522" duration="30869000" />
-      <workItem from="1528807978467" duration="19074000" />
+      <workItem from="1528807978467" duration="20130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50730000" />
+    <option name="totallyTimeSpent" value="51786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="23" width="1302" height="824" extended-state="0" />
@@ -382,14 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -471,34 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_box-imprisoned.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_box-face.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_box-split.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_box-corrugated.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -519,18 +478,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_box-face.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_box-imprisoned.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="288">
+          <caret line="218" column="44" lean-forward="false" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_box-corrugated.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>
