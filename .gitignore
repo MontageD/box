@@ -3,6 +3,7 @@ node_modules/
 bower_components/
 *.log
 .vscode
+.idea
 build/
 examples/
 package-lock.json
