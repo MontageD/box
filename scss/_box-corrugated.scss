@@ -1,0 +1,38 @@
+.square-corrugated{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+  .corrugated {
+    z-index: 1;
+    position: absolute;
+    display: block;
+    background-color: $boxColor;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    //animation: rotating 2s infinite linear;
+  }
+  @for $i from 1 through 6 {
+    .corrugated:nth-child(#{$i}) {
+      height: 12.5px * $i ;
+      width: 12.5px * $i ;
+      animation: #{nth($splitLength, $i)}-corrugated 1.5s infinite linear;
+    }
+    $num: $i * 5%;
+    @keyframes  #{nth($splitLength, $i)}-corrugated {
+      0% {
+        opacity:0;
+      }
+      #{$num} {
+        opacity: 1
+      }
+      100% {
+        opacity:0;
+      }
+    }
+
+
+  }
+}

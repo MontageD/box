@@ -6,7 +6,8 @@
     position: absolute;
     @include box;
     display: block;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    //background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
   }
 
   $splitLength: a, b, c, d, e, f, g, h, i,j;

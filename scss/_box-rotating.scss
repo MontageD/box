@@ -7,7 +7,8 @@
     position: absolute;
     @include box;
     display: block;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    //background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
     animation: rotating 2s infinite linear;
   }
   @for $i from 1 through 10 {

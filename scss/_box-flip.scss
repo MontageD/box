@@ -12,7 +12,7 @@
     display: block;
     height: 3 * $boxHeight;
     width: 3 * $boxWidth;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color:$boxColor;
     animation:  rotateplane 1.5s infinite linear;
   }
   @keyframes rotateplane {

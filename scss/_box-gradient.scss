@@ -1,6 +1,3 @@
-$wait: 1.5;
-
-
 
 .square-gradient {
   position: relative;
@@ -10,7 +7,7 @@ $wait: 1.5;
     position: absolute;
     @include box;
     display: block;
-    background-color: #41adef;
+    background-color:$boxColor;
     //animation: rotating 2s infinite linear;
   }
   @for $i from 1 through 10 {

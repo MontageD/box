@@ -1,0 +1,50 @@
+.square-imprisoned {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+
+  .imprisoned {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: $boxColor;
+    border-radius: 3px;
+  }
+  .imprisoned-ball {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 11;
+    @include box;
+    display: block;
+    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    border-radius: 50%;
+    animation: imprisoned 3s infinite linear;
+    box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0, 32, 128, .1), 0 0 0 1px #f0f2f7;
+  }
+
+  @keyframes imprisoned {
+    @for $i from 1 through 100 {
+      @if $i%6 == 0{
+        #{$i}% {
+          left: 7.5px * random() * 8;
+          top: 7.5px * random() * 8;
+        }
+      }
+    }
+
+
+
+    100%{
+      left: 0;
+      top: 0;
+    }
+  }
+
+
+
+
+}

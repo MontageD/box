@@ -7,7 +7,7 @@
     position: absolute;
     @include box;
     display: block;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
     //animation: rotating 2s infinite linear;
   }
 
@@ -20,7 +20,6 @@
     }
     @if $i>2 {
       .face:nth-child(#{$i}) {
-        background-color: red;
         left: 25px * ($i - 3);
         top: 25px;
       }

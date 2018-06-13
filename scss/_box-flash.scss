@@ -27,7 +27,7 @@ $flashTime: 3s;
     content: ' ';
     height: 0;
     width: ( 3 * $boxWidth ) / 5;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
     animation: rotateFlash $flashTime infinite linear;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ $flashTime: 3s;
     width: 2px;
     height: 2px;
     position: absolute;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
   }
   @for $i from 1 through 5 {
     @if $i == 1 {

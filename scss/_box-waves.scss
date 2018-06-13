@@ -1,0 +1,52 @@
+.square-waves {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: visible;
+  .waves {
+    position: relative;
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: $boxColor;
+    overflow: hidden;
+    //animation: waves 2s infinite linear;
+  }
+
+  .waves:before,
+  .waves:after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 40%;
+    transform: translate(-50%, -70%) rotate(0);
+    animation: waves 6s linear infinite;
+    z-index: 10;
+  }
+
+  .waves:after {
+    border-radius: 47%;
+    background-color: rgba(255, 255, 255, 1);
+    transform: translate(-50%, -70%) rotate(0);
+    animation: waves 10s linear -5s infinite;
+    z-index: 20;
+  }
+
+  @keyframes waves {
+
+    @for $i from 1 through 10 {
+      $num: $i * 10%;
+      #{$num} {
+        transform: translate(-50%, -70%) rotate(36deg * $i);
+      }
+      100% {
+        transform: translate(-50%, -70%) rotate(360deg);
+      }
+    }
+  }
+
+}

@@ -10,7 +10,7 @@ $wait: 2;
     position: absolute;
     @include box;
     display: block;
-    background-color: rgba(random()*255, random()*255, random()*255, 1);
+    background-color: $boxColor;
     border-radius: 3px;
   }
   @for $i from 1 through 3 {
@@ -36,36 +36,68 @@ $wait: 2;
             left: 25px * ($i - 1);
             top: 0;
           }
-          15% {
+          8% {
             left: 25px * ($i - 1);
             top: 0;
           }
-          25% {
+          16% {
+            left: 25px * ($i - 1)+ 25px;
+            top: 0;
+          }
+          24% {
             left: 25px * ($i - 1)+ 25px;
             top: 0;
           }
 
-          40% {
+
+
+
+
+          32%{
             left: 25px * ($i - 1)+ 25px;
             top: 0;
           }
-          50% {
+
+          40%{
             left: 25px * ($i - 1)+ 25px;
             top: 25px;
           }
-          65% {
+          48%{
             left: 25px * ($i - 1)+ 25px;
             top: 25px;
           }
-          75% {
+
+
+
+          56%{
+            left: 25px * ($i - 1)+25px;
+            top: 25px;
+          }
+
+          64%{
             left: 25px * ($i - 1);
             top: 25px;
           }
-          90% {
+          72%{
             left: 25px * ($i - 1);
             top: 25px;
           }
-          100% {
+
+
+
+
+
+          80%{
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+
+          88%{
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+
+          100%{
             left: 25px * ($i - 1);
             top: 0;
           }
@@ -82,38 +114,74 @@ $wait: 2;
             left: 25px * ($i - 1);
             top: 0;
           }
-          15% {
-            left: 25px * ($i - 1);
-            top: 0;
-          }
-          25% {
+         8% {
             left: 25px * ($i - 1);
             top: 25px;
           }
-          40% {
+          16% {
             left: 25px * ($i - 1);
             top: 25px;
           }
-          50% {
+          24% {
+            left: 25px * ($i - 1);
+            top: 25px;
+          }
+
+
+
+
+          32%{
             left: 25px * ($i - 1)-25px;
             top: 25px;
           }
-          65% {
+          40%{
             left: 25px * ($i - 1)-25px;
             top: 25px;
           }
-          75% {
+          48%{
+            left: 25px * ($i - 1)-25px;
+            top: 25px;
+          }
+
+
+
+          56%{
             left: 25px * ($i - 1)-25px;
             top: 0;
           }
-          90% {
+
+          64%{
             left: 25px * ($i - 1)-25px;
             top: 0;
           }
-          100% {
+          72%{
+            left: 25px * ($i - 1)-25px;
+            top: 0;
+          }
+
+
+
+
+
+
+          80%{
             left: 25px * ($i - 1);
             top: 0;
           }
+
+          88%{
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+
+          100%{
+            left: 25px * ($i - 1);
+            top: 0;
+          }
+
+
+
+
 
         }
       }
@@ -127,35 +195,73 @@ $wait: 2;
             left: 25px * ($i - 3);
             top: 25px;
           }
-          15% {
+          8% {
             left: 25px * ($i - 3);
             top: 25px;
           }
-          25% {
+          16% {
+            left: 25px * ($i - 3);
+            top: 25px;
+          }
+          24% {
             left: 25px * ($i - 3);
             top: 0;
           }
-          40% {
+
+
+
+
+
+          32%{
             left: 25px * ($i - 3);
             top: 0;
           }
-          50% {
-            left: 25px * ($i - 3) + 25px;
+          40%{
+            left: 25px * ($i - 3);
             top: 0;
           }
-          65% {
-            left: 25px * ($i - 3) + 25px;
+          48%{
+            left: 25px * ($i - 3)+25px;
             top: 0;
           }
-          75% {
-            left: 25px * ($i - 3) + 25px;
+
+
+
+
+
+
+
+
+          56%{
+            left: 25px * ($i - 3)+25px;
+            top: 0;
+          }
+
+          64%{
+            left: 25px * ($i - 3)+25px;
+            top: 0;
+          }
+          72%{
+            left: 25px * ($i - 3)+25px;
             top: 25px;
           }
-          90% {
-            left: 25px * ($i - 3) + 25px;
+
+
+
+
+
+
+          80%{
+            left: 25px * ($i - 3)+25px;
             top: 25px;
           }
-          100% {
+
+          88%{
+            left: 25px * ($i - 3)+25px;
+            top: 25px;
+          }
+
+          100%{
             left: 25px * ($i - 3);
             top: 25px;
           }
