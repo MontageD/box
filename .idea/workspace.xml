@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707a8fd9-01fc-4aae-8ed6-0bb9e2e92d9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="$PROJECT_DIR$/docs/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-corrugated.scss" afterPath="$PROJECT_DIR$/scss/_box-corrugated.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-face.scss" afterPath="$PROJECT_DIR$/scss/_box-face.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_box-imprisoned.scss" afterPath="$PROJECT_DIR$/scss/_box-imprisoned.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/box.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/guandexing.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -303,12 +303,12 @@
       <updated>1528706087065</updated>
       <workItem from="1528706089866" duration="787000" />
       <workItem from="1528726434522" duration="30869000" />
-      <workItem from="1528807978467" duration="20130000" />
+      <workItem from="1528807978467" duration="20236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51786000" />
+    <option name="totallyTimeSpent" value="51892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="23" width="1302" height="824" extended-state="0" />
